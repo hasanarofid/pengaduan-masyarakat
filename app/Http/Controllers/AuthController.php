@@ -39,8 +39,10 @@ class AuthController extends Controller
             'password' => 'required'
         ]);
         if(Auth::guard('petugas')->attempt(['username' => $request->username,'password' => $request->password])){
+            dd(1);
             return redirect('/home/petugas');
         }else{
+            dd(2);
             return redirect()->back()->with('danger', 'Username atau Password anda Salah');
         }
     } 
