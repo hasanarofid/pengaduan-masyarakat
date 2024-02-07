@@ -23,7 +23,7 @@
 Install the dependencies and start the server.
 
 ```sh
-$ git clone https://github.com/erpeel-a/UKK-Pengaduan-Masyarakat--Laravel/ or https://github.com/Zainal21/UKK-Pengaduan-Masyarakat--with-Laravel
+$ git clone https://github.com/hasanarofid/pengaduan-masyarakat/ 
 $ open directory project
 $ composer install
 $ cp .env.example to .env
